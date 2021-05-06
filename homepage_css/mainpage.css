@@ -75,6 +75,11 @@ input.search_bar{
     text-align: center;
   }
 
+  .navbar.responsive input{
+    display: inline-block;
+    text-align: center;
+  }
+
   .navbar.responsive img{
     height: auto;
     width: auto;
