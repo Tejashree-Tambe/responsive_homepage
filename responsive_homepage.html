@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="homepage_css/mainpage.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar">
+        <div class="navbar_start" id="navbar_start">
+            <a href="#"><img src="GitHub_logo.png"></a>
+            <a href="#">Features</a>
+            <a href="#">Business</a>
+            <a href="#">Explore</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Pricing</a>
+            <a href="#"><input class="search_bar" type="text" placeholder="Search GitHub" name="search_term"></a>
+            <a href="#">Sign In <p>or</p> Signup</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+
+    <div class="main_block">
+        <div class="about_column"> 
+            <div class="about_block" id="about_block">
+                <div class="title">
+                    Built for developers
+                </div>
+
+                <div class="about">
+                    GitHub is a development platform inpired by the way you work. 
+                    From <a>open-source</a> to <a>business,</a> you can host and review code, manage projects, and build software alongside millions of other developers.
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <center>
+                <div class="login_form" id="login_form">
+                    <div class="input_form">
+                        <label>Username</label><br>
+                        <input type="text" class="input_field" placeholder=" Pick a Username"><br>
+                    </div>
+                    
+                    <div class="input_form">
+                        <label>Email</label><br>
+                        <input type="text" class="input_field" placeholder=" you@example.com"><br>
+                    </div>
+
+                    <div class="input_form">
+                        <label>Password</label><br>
+                        <input type="text" class="input_field" placeholder=" Create Password"><br>
+                        <p>Use atleast one letter, one number and special character</p>
+                    </div>
+
+                    <div class="input_form_button">
+                        <button class="signup_button" type="submit">Sign up for GitHub</button>
+                        <p>By clicking "Sign up for GitHub", you agree to the <a>Terms of Service</a> and <a>privacy policy</a>. We'll occasionally send you account-related emails.</p>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <div class="teams_github">
+        <center>
+            <p class="teams_title">GitHub for teams</p>
+            <p class="teams_motto">A better way to work together</p>
+            <p class="teams_desc">GitHub brings teams together to work through problems, move ideas forward, and learn from each other along the way</p>
+            <button class="team_signup_button" type="submit"><b>Sign up your team</b></button>
+        </center>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+    </script>
+</body>
+</html>
