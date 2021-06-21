@@ -1,5 +1,5 @@
 # responsive_homepage
-It tried making a responsive page of GitHub website.<br/> 
+It is a responsive page of GitHub website.<br/> 
 This is done by using HTML, CSS and a function of JavaScript to display vertical navigation bar.
 
 The ouput looks as follows:<br/> 
